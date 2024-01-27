@@ -1,3 +1,8 @@
+To preview the react app please click the link below 
+
+https://vivekladhe37.github.io/precision_works_gp/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
