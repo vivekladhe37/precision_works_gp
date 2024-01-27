@@ -1,0 +1,127 @@
+/* General Styles */
+h1 {
+    text-align: center;
+}
+
+/* Capabilities Section */
+.capabilities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px; /* Increased padding for better spacing */
+}
+
+.capabilities-text,
+.capabilities-image {
+    width: 100%;
+    max-width: 800px; /* Increased max-width for larger screens */
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #333; /* Use a darker border color for better contrast */
+    border-radius: 8px; /* Add border-radius for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for elevation */
+}
+
+.capabilities-image {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.capabilities-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Apply border-radius to images */
+}
+
+/* CNC Machines Section */
+.cnc-machines-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px; /* Increased padding for better spacing */
+}
+
+.cnc-machines-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #333; /* Use a darker border color for better contrast */
+    border-radius: 8px; /* Add border-radius for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for elevation */
+}
+
+.cnc-machines-text-1-2-3,
+.cnc-machines-text-4-5 {
+    margin: 20px 0; /* Adjust the margin value to make the sections closer */
+}
+
+.cnc-machines-text-1-2-3 div,
+.cnc-machines-text-4-5 div {
+    margin: 10px 0; /* Adjust the margin value to make the inner divs closer */
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .capabilities,
+    .cnc-machines-container {
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .capabilities-text,
+    .cnc-machines-text {
+        margin: 0 20px 0 0;
+    }
+
+    .capabilities-image {
+        margin: 0 0 0 20px;
+    }
+
+    .cnc-machines-text-1-2-3,
+    .cnc-machines-text-4-5 {
+        margin: 0 20px 0 0;
+    }
+
+    .cnc-machines-text-1-2-3 div,
+    .cnc-machines-text-4-5 div {
+        margin: 10px 0; /* Adjust the margin value to make the inner divs closer */
+    }
+}
+
+/* Tools and Equipment Section */
+.tools-equipment-section {
+    padding: 40px 20px; /* Increased padding for better spacing */
+}
+
+.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px; /* Increased padding for better spacing */
+    margin: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+/* Responsive Styles for Get in Touch Section */
+@media (min-width: 768px) {
+    .get-in-touch {
+        flex-direction: row;
+    }
+}
+
+.contact-us {
+    margin-top: 40px;
+    border-top: 2px solid #333; /* Use a darker border color for better contrast */
+    padding-top: 40px;max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  

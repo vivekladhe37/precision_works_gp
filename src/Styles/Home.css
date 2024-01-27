@@ -1,0 +1,93 @@
+/* Home.css */
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.home-container h2{
+  text-align: center;
+  padding-top: 15px;
+}
+
+.about-us {
+  padding-top: 15px;
+}
+
+.about-us h2 {
+  text-align: center;
+  color: #333; /* Choose a suitable color */
+  padding-bottom: 10px;
+}
+
+.about-us-flexcontainer {
+  display: flex;
+  flex-direction: column; /* Change to column for small screens */
+  align-items: center;
+}
+
+.about-us-pic {
+  max-width: 100%; /* Make the image full-width for small screens */
+  height: auto;
+  border-radius: 8px; /* Add a border radius for a rounded look */
+  margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.about-us-text {
+  max-width: 100%; /* Make the text full-width for small screens */
+  padding: 0 20px;
+  text-align: left;
+}
+
+.about-us-text p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: black; /* Choose a suitable color */
+  text-align: justify;
+}
+
+.cnc-intro-video {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-us-flexcontainer {
+    flex-direction: row; /* Change back to row for larger screens */
+  }
+
+  .about-us-pic {
+    max-width: 50%;
+    margin-bottom: 0; /* Remove margin for larger screens */
+  }
+
+  .about-us-text {
+    max-width: 50%;
+  }
+}
+
+
+.get-in-touch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px; /* Increased padding for better spacing */
+  margin: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+/* Responsive Styles for Get in Touch Section */
+@media (min-width: 768px) {
+  .get-in-touch {
+      flex-direction: row;
+  }
+}
+
+.contact-us {
+  margin-top: 40px;
+  border-top: 2px solid #333; /* Use a darker border color for better contrast */
+  padding-top: 40px;
+}

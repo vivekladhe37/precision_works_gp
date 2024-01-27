@@ -1,0 +1,115 @@
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 80%;
+    max-width: 508px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+  }
+  
+  .container-form h1 {
+    text-align: center;
+  }
+  
+  .address-sec p {
+    font-size: 25px;
+  }
+  
+  .address-sec {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .container-form {
+    padding-top: 50px;
+    max-width: 100%;
+  }
+  
+  .location {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1160px;
+  }
+  
+  .container-map {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 580px;
+  }
+  
+  .container-map h1 {
+    text-align: center;
+  }
+
+  .error {
+    color: rgb(188, 8, 8);
+    font-size: 17px;
+    margin-top: 5px;
+    margin-left: 22%;
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 768px) {
+    .location {
+      flex-direction: column;
+      align-items: center;
+      margin-right: 0;
+    }
+  
+    .address-sec,
+    .container-map {
+      flex: none;
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+    }
+  }
+  
+  /* Styles for the loader */
+  .loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Styles for the blurred background */
+  .blur {
+    filter: blur(5px);
+  }
+  
